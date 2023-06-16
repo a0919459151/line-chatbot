@@ -1,0 +1,34 @@
+{
+  "name": "line-chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@line/bot-sdk": "^7.5.2",
+    "aws-sdk": "^2.1295.0",
+    "axios": "^1.2.1",
+    "cron": "^2.1.0",
+    "dayjs": "^1.11.7",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.8.1",
+    "ngrok": "^4.3.3",
+    "sharp": "^0.31.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.6.0",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
