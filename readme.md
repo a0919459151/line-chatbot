@@ -33,23 +33,23 @@ proxy: ngrok
 
 # get start
 
-## set env var
+### set env var
 
 cp .env.example .env
 
-## npm install
+### npm install
 
 npm i
 
-## run express
+### run express
 
 npm run start
 
-## run ngrok
+### run ngrok
 
 node utils/manualScript/runNgrok.js
 
-## set line bot webhook
+### set line bot webhook
 
 line developer 官網: https://manager.line.biz/account/@001dsxlb/setting/messaging-api
 
