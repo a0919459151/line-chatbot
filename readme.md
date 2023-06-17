@@ -17,7 +17,7 @@
 
 - 行事曆 刪
 
-# 使用到的技術
+# Tech Stack
 - language: node v16.16.0
 - api server: express
 - db: mongo db
@@ -25,7 +25,7 @@
 - schedule: cron
 - proxy: ngrok
 
-# get start
+# Project Setup
 
 ### set env var
     cp .env.example .env
