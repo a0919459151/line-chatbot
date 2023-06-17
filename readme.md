@@ -18,36 +18,26 @@
 - 行事曆 刪
 
 # 使用到的技術
-
-language: node v16.16.0
-
-api server: express
-
-db: mongo db
-
-orm: mongoose
-
-schedule: cron
-
-proxy: ngrok
+- language: node v16.16.0
+- api server: express
+- db: mongo db
+- orm: mongoose
+- schedule: cron
+- proxy: ngrok
 
 # get start
 
 ### set env var
-
-cp .env.example .env
+    cp .env.example .env
 
 ### npm install
-
-npm i
+    npm i
 
 ### run express
-
-npm run start
+    npm run start
 
 ### run ngrok
-
-node utils/manualScript/runNgrok.js
+    node utils/manualScript/runNgrok.js
 
 ### set line bot webhook
 
